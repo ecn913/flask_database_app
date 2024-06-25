@@ -1,0 +1,41 @@
+nav li + li:before{
+    content: " | ";
+    padding: 0 10px;
+}
+.offset{
+    margin-top: 90px;
+}
+#sidebar{
+    height: 934px;
+    width: 192px;
+    position: absolute;
+    left: 0;
+    top: 90;
+    margin: 0px;
+    background-image: url("images/sidebar.png");
+    background-repeat: no-repeat;
+}
+.sidebar_div{
+    font-size:24px;
+}
+#banner{
+    height: 90px;
+    width: 1260px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0px;
+    background-image: url("images/banner.png");
+    background-repeat: no-repeat;
+}
+.banner_div{
+    font-size: 24px;
+}
+a, label, p, h1, h2, h3, h4, h5{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: rgb(107, 134, 213);
+}
