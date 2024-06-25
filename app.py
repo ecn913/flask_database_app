@@ -32,7 +32,7 @@ def edit (todo_id):
     todo = Todo.query.get(todo_id)
     return render_template("edit.html", todo=todo)
 
-@app.route("/update/<int:todo_id>", methods=["POST"])
+@app.route("/update_task/<int:todo_id>", methods=["POST"])
 def update_task(todo_id):
     todo = Todo.query.get(todo_id) #had to get some help from chatgpt such as the .query part 
     task = request.form.get("task") #Chatgpt helped me with this line also # these two lines taken from Lee
