@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
-from error import not_found_error, internal_error
 
 # new instance of the Flask class
 app = Flask(__name__)
